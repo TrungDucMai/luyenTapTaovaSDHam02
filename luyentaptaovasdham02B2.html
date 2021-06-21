@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let a=Math.PI
+    // alert(a)
+    function dientich (r){
+        document.getElementById('dientich').innerText= r*Math.PI;
+       document.getElementById('chuvi').innerText= 2*r*Math.PI;
+    };
+
+</script>
+<input type="number" oninput="dientich(this.value)">
+Dientich<p id="dientich">Ket qua</p>
+Chuvi<p id="chuvi">ket qua</p>
+</body>
+</html>

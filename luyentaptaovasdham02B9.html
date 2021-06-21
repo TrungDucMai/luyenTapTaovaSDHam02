@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function checking(num, array) {
+        let dem = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (num === array[i]) {
+                dem++;
+            }
+        }
+       if (dem === 0){
+           document.write(-1)
+       }else {
+           document.write('so lan xuat hien'+dem)
+       }
+    }
+    let a = 5;
+    let arr1 = [ 5,4,5,5,5,'xin chao'];
+    checking(a, arr1)
+
+
+</script>
+</body>
+</html>
